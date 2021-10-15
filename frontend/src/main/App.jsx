@@ -15,7 +15,11 @@ const App = (props) => {
     <div className="app">
     <Logo />
     <Nav />
-    <Main />
+    <Main 
+      icon="home" 
+      title="Início" 
+      subtitle="Segundo projeto do capítulo de React."
+    />
     <Footer />
   </div>
   )

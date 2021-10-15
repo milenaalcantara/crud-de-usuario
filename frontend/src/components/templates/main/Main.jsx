@@ -7,7 +7,7 @@ import Header from '../header/Header'
 const Main = (props) => {
   return(
     <React.Fragment>
-      <Header />
+      <Header { ...props }/>
       <main className="content">
         Conteúdo
       </main>
